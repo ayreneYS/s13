@@ -1,0 +1,72 @@
+.newsAndUse-container {
+  width: 970px;
+  padding: 10px 0px;
+  background-color: whitesmoke;
+}
+
+.lines {
+  border-top: 3px solid #2d6f9b;
+  margin-left: 25px;
+  padding-bottom: 15px;
+  width: 440px;
+}
+
+.python-news,
+.python-use {
+  display: inline-block;
+  width: 49%;
+}
+.python-news h4,
+.python-use h4 {
+  display: inline;
+  padding-left: 45px;
+  font-family: 'Alegreya', sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+  color: rgb(72, 72, 72);
+}
+
+.python-news .more-btn,
+.python-use .more-btn {
+  display: inline;
+  font-size: 11px;
+  color: rgb(141, 139, 139);
+  padding-left: 220px;
+}
+
+.python-news p {
+  margin-left: 35px;
+}
+.python-news ul,
+.python-use ul {
+  padding-left: 45px;
+}
+.python-news ul li,
+.python-use ul li {
+  padding: 5px 0px 5px 0px;
+  width: 395px;
+  border-top: 1px solid #2d6f9b;
+  list-style-type: none;
+  font-size: 11px;
+}
+
+.python-news ul li a {
+  text-decoration: none;
+  color: #2d6f9b;
+}
+.python-use {
+  vertical-align: top;
+}
+
+.python-use li {
+  font-weight: 600;
+}
+
+.python-use .use-list p {
+  display: inline;
+  padding: 2px 3px;
+  font-weight: 100;
+  font-size: 9px;
+  color: rgb(78, 78, 78);
+  background-color: rgb(229, 227, 227);
+}

@@ -1,0 +1,35 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+body {
+  width: 970px;
+  height: 850px;
+  font-family: sans-serif;
+  background: linear-gradient(#1c4560, #225374);
+}
+
+/* -- Footer -- */
+footer ul,
+footer p {
+  margin-left: 220px;
+}
+footer ul li {
+  display: inline-block;
+  padding: 0px;
+  margin: 10px 0px 10px 15px;
+  font-size: 13px;
+}
+
+footer ul li a {
+  color: rgba(242, 241, 241, 0.746);
+  text-decoration: none;
+  font-family: 'Alegreya', sans-serif;
+}
+
+footer p {
+  font-size: 10px;
+  color: rgba(242, 241, 241, 0.509);
+}
